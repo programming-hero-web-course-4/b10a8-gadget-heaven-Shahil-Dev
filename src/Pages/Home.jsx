@@ -1,9 +1,20 @@
+import { Outlet, useLoaderData } from "react-router-dom";
+import Category from "../Components/Category";
 
 const Home = () => {
+    const categories = useLoaderData()
     return (
-        <div>
-            
-            <h1>home</h1>
+        <div className="max-w-6xl mx-auto">
+            <h1 className="text-center text-[40px] font-extrabold">Explore Cutting-Edge Gadgets</h1>
+            <br />
+            <div className="md:flex block gap-5">
+                 <Category categories={categories}></Category>
+               <div className="max-w-4xl mx-auto">
+                     <Outlet></Outlet>
+                    
+               </div>
+
+            </div>
         </div>
     );
 };

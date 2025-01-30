@@ -1,0 +1,238 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "Apple MacBook Air ",
+        "product_image": "https://i.pinimg.com/474x/2a/c5/cd/2ac5cde24e330b4bbce655e4af5ea22b.jpg",
+        "category": "Laptops",
+        "price": 91500,
+        "description": "8-core Apple M1 chip with 8GB RAM, 256GB SSD",
+        "specification": [
+            "Apple M1 chip",
+            "8GB RAM",
+            "256GB SSD",
+            "13.3-inch Retina Display"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "2",
+        "product_title": "MSI Thin 15 B13UC",
+        "product_image": "https://i.pinimg.com/474x/ad/6a/5e/ad6a5e2d3ce681930c051cf586a50884.jpg",
+        "category": "Laptops",
+        "price": 90000,
+        "description": "Intel Core i5-13420H, 8GB RAM, 512GB SSD",
+        "specification": [
+            "Intel Core i5-13420H",
+            "8GB RAM",
+            "512GB SSD",
+            "15.6-inch FHD"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "3",
+        "product_title": "Asus TUF Gaming A15 FA506NFR",
+        "product_image": "https://i.pinimg.com/736x/8e/d0/33/8ed033fd26b6409a1dec6db3620e00d7.jpg",
+        "category": "Laptops",
+        "price": 98900,
+        "description": "AMD Ryzen 7 7435HS, 8GB RAM, 512GB SSD",
+        "specification": [
+            "AMD Ryzen 7 7435HS",
+            "8GB RAM",
+            "512GB SSD",
+            "15.6-inch FHD"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "4",
+        "product_title": "Xiaomi Poco C75 5G",
+        "product_image": "https://i.pinimg.com/474x/06/e7/6d/06e76d71014016811cc7b8f32778f811.jpg",
+        "category": "Phones",
+        "price": 13500,
+        "description": "5G support, 6.67-inch display",
+        "specification": [
+            "5G",
+            "6.67-inch display",
+            "64MP camera",
+            "4000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": "5",
+        "product_title": "Realme Note 60x",
+        "product_image": "https://i.pinimg.com/474x/22/8d/7d/228d7d4a7abeb3d6c08b857497bf4142.jpg",
+        "category": "Phones",
+        "price": 10999,
+        "description": "6.67-inch display, 48MP camera",
+        "specification": [
+            "6.67-inch display",
+            "48MP camera",
+            "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "product_id": "6",
+        "product_title": "Samsung Galaxy F14 4G",
+        "product_image": "https://i.pinimg.com/736x/f9/35/bd/f935bdebe88daff17d4160435de8a0a3.jpg",
+        "category": "Phones",
+        "price": 13999,
+        "description": "4G support, 6.5-inch display",
+        "specification": [
+            "4G",
+            "6.5-inch display",
+            "50MP camera",
+            "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.0
+    },
+    {
+        "product_id": "7",
+        "product_title": "Logitech Wireless Mouse",
+        "product_image": "https://i.pinimg.com/736x/95/a0/1d/95a01d697bb7120d9d98cb1fb3ffcd21.jpg",
+        "category": "Accessories",
+        "price": 2500,
+        "description": "Wireless, ergonomic design",
+        "specification": [
+            "Wireless",
+            "Ergonomic design",
+            "Battery life: 12 months"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "8",
+        "product_title": "Anker Power Bank 10000mAh",
+        "product_image": "https://i.pinimg.com/474x/7d/8f/a7/7d8fa73fd9877591cadf7e02eab17fb6.jpg",
+        "category": "Accessories",
+        "price": 3000,
+        "description": "High capacity, fast charging",
+        "specification": [
+            "10000mAh",
+            "Fast charging",
+            "Dual USB ports"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "9",
+        "product_title": "Belkin USB-C Hub",
+        "product_image": "https://i.pinimg.com/474x/fc/3e/a8/fc3ea88145ddc3aff5c1fdfb0fb15bbd.jpg",
+        "category": "Accessories",
+        "price": 2800,
+        "description": "Expand your ports",
+        "specification": [
+            "USB-C",
+            "Multiple ports",
+            "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "10",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://i.pinimg.com/474x/64/d0/c0/64d0c0ae4bee50eebbeb02f81afe18a7.jpg",
+        "category": "Smart Watches",
+        "price": 70000,
+        "description": "Health tracking, GPS",
+        "specification": [
+            "Health tracking",
+            "GPS",
+            "Always-on display"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "11",
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://i.pinimg.com/474x/d1/fd/6b/d1fd6b9fcf16b02308c8e40b87316599.jpg",
+        "category": "Smart Watches",
+        "price": 65000,
+        "description": "Fitness tracking, sleep monitoring",
+        "specification": [
+            "Fitness tracking",
+            "Sleep monitoring",
+            "5ATM water resistance"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "12",
+        "product_title": "Fitbit Versa 3",
+        "product_image": "https://i.pinimg.com/474x/1a/98/71/1a9871c573e47ff39fb3644353813ffa.jpg",
+        "category": "Smart Watches",
+        "price": 55000,
+        "description": "Heart rate monitoring, sleep tracking",
+        "specification": [
+            "Heart rate monitoring",
+            "Sleep tracking",
+            "GPS"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "13",
+        "product_title": "Samsung Galaxy Buds 2 Pro",
+        "product_image": "https://i.pinimg.com/474x/32/b7/6d/32b76d249c077ad5b2582b45821f07c9.jpg",
+        "category": "Accessories",
+        "price": 19999,
+        "description": "Samsung Galaxy Buds 2 Pro with Hi-Fi sound and ANC.",
+        "Specification": [
+            "Hi-Fi Sound",
+            "Active Noise Cancellation",
+            "Wireless Charging"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "14",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://i.pinimg.com/474x/8a/ca/b5/8acab5f315461ddb9e0393dae2865cca.jpg",
+        "category": "Phones",
+        "price": 163000,
+        "description": "Samsung Galaxy S23 Ultra with Snapdragon 8 Gen 2, 12GB RAM.",
+        "Specification": [
+            "Snapdragon 8 Gen 2",
+            "12GB RAM",
+            "256GB Storage",
+            "6.8-inch AMOLED Display"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "15",
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.pinimg.com/474x/3c/03/a5/3c03a5e367e2335f058355443220e9c7.jpg",
+        "category": "Laptops",
+        "price": 180000,
+        "description": "Apple MacBook Air with M2 chip, 8GB RAM, and 256GB SSD.",
+        "Specification": [
+            "Apple M2 Chip",
+            "8GB RAM",
+            "256GB SSD",
+            "13.6-inch Retina Display"
+        ],
+        "availability": true,
+        "rating": 4.7
+    }
+]
+
+
+
+

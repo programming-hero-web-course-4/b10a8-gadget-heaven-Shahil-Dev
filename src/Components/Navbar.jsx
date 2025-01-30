@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { IoClose  } from "react-icons/io5";
 import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
@@ -7,9 +7,9 @@ import Banner from "./Banner";
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className="m-5 ">
-            <div className="md:rounded-[20px] rounded-[10px] md:h-[400px] bg-[#9538E2] shadow-sm">
-                <div className="flex max-w-6xl pt-5 mx-auto">
+        <div className="md:m-5 ">
+            <div className="md:rounded-[20px] md:h-[400px] bg-[#9538E2] shadow-sm">
+                <div className="fixed right-0 top-6 left-0  navbar max-w-6xl mx-auto flex justify-between items-center z-50 backdrop-blur-2xl pt-5 px-4">
                     <div className="navbar-start ">
                         <div className="dropdown">
                             <div onClick={() => setOpen(!open)} tabIndex={0} role="button" className={`btn btn-ghost  lg:hidden`}>
@@ -31,26 +31,26 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className={`menu-sm dropdown-content ${open ? 'hidden' : ''}  bg-white  mt-3  p-2 rounded-[5px]`}>
-                                <li><Link to="/">Home </Link></li>
+                                className={`menu-sm dropdown-content ${open ? 'hidden' : ''}  bg-amber-600  mt-3  p-2 rounded-[5px]`}>
+                                   <li><NavLink  className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/">Home </NavLink></li>
                                 <li>
-                                    <Link to="/Statistics ">Statistics </Link>
+                    <NavLink  className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/Statistics ">Statistics </NavLink>
                                 </li>
-                                <li><Link to="/Dashboard ">Dashboard</Link></li>
-                                <li><Link to="/LogIn ">LogIn</Link></li>
+                   <li><NavLink className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/Dashboard ">Dashboard</NavLink></li>
+                    <li><NavLink  className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/LogIn ">LogIn</NavLink></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl">Gadget Heaven
-                        </a>
+                        <Link to="../" className="btn btn-ghost text-2xl">Gadget Heaven
+                        </Link>
                     </div>
                     <div className="navbar-center hidden gap-5 lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                        <li><Link className="text-white" to="/">Home </Link></li>
+                        <li><NavLink  className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/">Home </NavLink></li>
                                 <li>
-                    <Link className="text-white" to="/Statistics ">Statistics </Link>
+                    <NavLink  className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/Statistics ">Statistics </NavLink>
                                 </li>
-                   <li><Link className="text-white" to="/Dashboard ">Dashboard</Link></li>
-                    <li><Link className="text-white" to="/LogIn ">LogIn</Link></li>
+                   <li><NavLink className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/Dashboard ">Dashboard</NavLink></li>
+                    <li><NavLink  className={({isActive})=>`text-black font-extrabold ${isActive ? "text-white" : "text-[#000000]"}`} to="/LogIn ">LogIn</NavLink></li>
                         </ul>
                     </div>
                     <div className="navbar-end gap-2 md:mr-0 mr-2 md:gap-5">
@@ -58,6 +58,7 @@ const Navbar = () => {
                         <Link to=""><button className="cursor-pointer rounded-full bg-white p-3"><FaRegHeart className="h-5 w-5" /></button></Link>
                     </div>
                  </div>
+                 <br /> <br /><br />
                  <Banner></Banner>
             </div>
         </div>
