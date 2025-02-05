@@ -7,6 +7,7 @@ import Dashboard from "../Pages/Dashboard";
 import LogIn from "../Pages/LogIn";
 import GadgetCard from "../Components/GadgetCard";
 import Device from "../Components/Device";
+import Wish from "../Components/Wish";
 const router = createBrowserRouter([
     {
       path: "/",
@@ -30,15 +31,21 @@ const router = createBrowserRouter([
           ]
         },
         {
-          path:"/Statistics ",
+          path:"/Statistics",
           element:<Statistics></Statistics>
         },
         {
-          path:"/Dashboard ",
+          path:"/Dashboard",
           element:<Dashboard></Dashboard>,
+          children:[
+           {
+              path:"/Dashboard/wishlist",
+              element:<Wish></Wish>
+            }
+          ]
         },
         {
-           path:"/LogIn ",
+           path:"/LogIn",
            element:<LogIn></LogIn>
         },
         {
@@ -46,7 +53,8 @@ const router = createBrowserRouter([
            element:<Device></Device>,
            loader:()=> fetch("../Product.json"),
 
-        }
+        },
+        
       ]
     },
   ]);

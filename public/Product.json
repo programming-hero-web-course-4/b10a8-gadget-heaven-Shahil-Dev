@@ -191,7 +191,7 @@
         "category": "Accessories",
         "price": 19999,
         "description": "Samsung Galaxy Buds 2 Pro with Hi-Fi sound and ANC.",
-        "Specification": [
+        "specification": [
             "Hi-Fi Sound",
             "Active Noise Cancellation",
             "Wireless Charging"
@@ -206,7 +206,7 @@
         "category": "Phones",
         "price": 163000,
         "description": "Samsung Galaxy S23 Ultra with Snapdragon 8 Gen 2, 12GB RAM.",
-        "Specification": [
+        "specification": [
             "Snapdragon 8 Gen 2",
             "12GB RAM",
             "256GB Storage",
@@ -222,7 +222,7 @@
         "category": "Laptops",
         "price": 180000,
         "description": "Apple MacBook Air with M2 chip, 8GB RAM, and 256GB SSD.",
-        "Specification": [
+        "specification": [
             "Apple M2 Chip",
             "8GB RAM",
             "256GB SSD",
